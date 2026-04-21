@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
+  <title>Electricista a Domicilio | Yañez y Yañez</title>
+
+  <!-- ═══ SEO ═══ -->
+  <meta name="description" content="Yañez y Yañez — Urgencias eléctricas, instalación, reparación y mantención de sistemas eléctricos. Servicios domiciliarios, industriales y domótica. Certificados SEC. (+569) 63603720." />
+  <meta name="keywords" content="electricista a domicilio, electricista Santiago, urgencias eléctricas, domótica, electricidad industrial, SEC certificado, Yañez y Yañez, electricista Chile" />
+  <meta name="author" content="Yañez y Yañez Electricidad" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://yanezyyanez.cl/" />
+
+  <!-- ═══ Open Graph ═══ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yanezyyanez.cl/" />
+  <meta property="og:site_name" content="Yañez y Yañez — Electricista a Domicilio" />
+  <meta property="og:locale" content="es_CL" />
+  <meta property="og:title" content="Electricista a Domicilio | Yañez y Yañez" />
+  <meta property="og:description" content="Urgencias eléctricas, instalación y domótica. Técnicos certificados SEC. Llama al (+569) 63603720." />
+  <meta property="og:image" content="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png" />
+  <meta property="og:image:secure_url" content="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Yañez y Yañez Electricidad" />
+
+  <!-- ═══ Twitter Card ═══ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Electricista a Domicilio | Yañez y Yañez" />
+  <meta name="twitter:description" content="Urgencias eléctricas, instalación y domótica. Técnicos certificados SEC." />
+  <meta name="twitter:image" content="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png" />
+
+  <!-- ═══ Schema.org ═══ -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Yañez y Yañez Electricidad","description":"Servicios eléctricos a domicilio, industriales y domótica. Certificados SEC.","url":"https://yanezyyanez.cl/","telephone":"+56963603720","email":"contacto@yanezyyanez.cl","image":"https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png","areaServed":"Chile","sameAs":["https://www.facebook.com/sebastian.yanezmerino","https://www.instagram.com/sebastianpaulyanezmerino/"]}</script>
+
+  <!-- ═══ Favicons ═══ -->
+  <link rel="icon" href="https://yanezyyanez.cl/wp-content/uploads/2025/04/cropped-logo-yanez-32x32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="https://yanezyyanez.cl/wp-content/uploads/2025/04/cropped-logo-yanez-180x180.png" />
+
+  <!-- ═══ Google Fonts: Sen + Barlow Condensed + Barlow ═══ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ══════════════════════════════════════
+       VARIABLES — paleta exacta del WP
+    ══════════════════════════════════════ */
+    :root {
+      --c1: #ffcd05;
+      --c2: #fcb424;
+      --c3: #504e4a;
+      --c4: #0a0500;
+      --c5: #edeff2;
+      --c8: #ffffff;
+      --fd: 'Sen', sans-serif;
+      --fc: 'Barlow Condensed', sans-serif;
+      --fb: 'Barlow', sans-serif;
+      --r: 4px;
+      --t: .22s ease;
+      --sy: 0 20px 80px 0 rgba(255,205,5,.4);
+    }
+
+    /* ══════════════════════════════════════
+       RESET
+    ══════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--fb); background: var(--c8); color: var(--c4); overflow-x: hidden; }
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* ══════════════════════════════════════
+       LAYOUT
+    ══════════════════════════════════════ */
+    .ct { max-width: 1260px; margin: 0 auto; padding: 0 28px; }
+
+    /* ══════════════════════════════════════
+       FADE-UP
+    ══════════════════════════════════════ */
+    .fu { opacity: 0; transform: translateY(26px); transition: opacity .5s ease, transform .5s ease; }
+    .fu.in { opacity: 1; transform: none; }
+    .fu:nth-child(2) { transition-delay:.1s }
+    .fu:nth-child(3) { transition-delay:.2s }
+    .fu:nth-child(4) { transition-delay:.3s }
+
+    /* ══════════════════════════════════════
+       TOPBAR
+    ══════════════════════════════════════ */
+    .topbar {
+      background: rgba(10,5,0,.97);
+      border-bottom: 1px solid rgba(255,205,5,.12);
+      padding: 7px 0;
+    }
+    .topbar-inner { display: flex; align-items: center; justify-content: space-between; }
+    .topbar-cta {
+      font-family: var(--fc);
+      font-weight: 800;
+      font-size: .82rem;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+      background: var(--c1);
+      color: var(--c4);
+      padding: 7px 20px;
+      border-radius: var(--r);
+      transition: background var(--t);
+    }
+    .topbar-cta:hover { background: var(--c2); }
+    .topbar-socials { display: flex; gap: 14px; }
+    .topbar-socials a { color: rgba(255,255,255,.45); transition: color var(--t); }
+    .topbar-socials a:hover { color: var(--c1); }
+    .topbar-socials svg { width: 17px; height: 17px; fill: currentColor; }
+
+    /* ══════════════════════════════════════
+       NAVBAR
+    ══════════════════════════════════════ */
+    .navbar {
+      position: sticky; top: 0; z-index: 900;
+      background: rgba(10,5,0,.96);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255,205,5,.1);
+    }
+    .nav-inner { display: flex; align-items: center; height: 72px; gap: 20px; justify-content: space-between; }
+    .nav-logo img { height: 48px; width: auto; }
+    .nav-links { display: flex; gap: 2px; }
+    .nav-links a {
+      font-family: var(--fc);
+      font-weight: 600;
+      font-size: .9rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.7);
+      padding: 7px 16px;
+      border-radius: var(--r);
+      transition: color var(--t), background var(--t);
+    }
+    .nav-links a:hover, .nav-links a.act { color: var(--c1); background: rgba(255,205,5,.07); }
+    .nav-phone { font-family: var(--fc); font-size: .88rem; color: rgba(255,255,255,.55); white-space: nowrap; }
+    .nav-phone strong { color: var(--c1); }
+
+    .ham { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .ham span { display: block; width: 26px; height: 2px; background: #fff; border-radius: 2px; transition: all .3s; }
+    .ham.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .ham.open span:nth-child(2) { opacity: 0; }
+    .ham.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .mnav { display: none; background: rgba(10,5,0,.99); border-top: 1px solid rgba(255,205,5,.1); padding: 14px 24px 22px; flex-direction: column; gap: 2px; }
+    .mnav.open { display: flex; }
+    .mnav a { font-family: var(--fc); font-weight: 700; font-size: 1.05rem; letter-spacing: .07em; text-transform: uppercase; color: rgba(255,255,255,.7); padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,.06); transition: color var(--t); }
+    .mnav a:hover { color: var(--c1); }
+    .mnav a:last-child { border: none; }
+    .mnav .mcta { margin-top: 12px; background: var(--c1); color: var(--c4); text-align: center; padding: 14px; border-radius: var(--r); font-size: 1rem; border: none; font-weight: 800; }
+
+    /* ══════════════════════════════════════
+       HERO — imagen real del WP
+    ══════════════════════════════════════ */
+    .hero {
+      position: relative;
+      min-height: 78vh;
+      display: flex;
+      align-items: center;
+      background:
+        linear-gradient(rgba(0,0,0,.42), rgba(0,0,0,.42)),
+        url('https://yanezyyanez.cl/wp-content/uploads/2025/04/50448-scaled.jpg') center/cover no-repeat;
+      padding: 120px 0 100px;
+    }
+    .hero-sub { font-family: var(--fc); font-weight: 700; font-size: .95rem; letter-spacing: .22em; text-transform: uppercase; color: rgba(255,255,255,.65); margin-bottom: 12px; }
+    .hero h1 { font-family: var(--fd); font-weight: 800; font-size: clamp(2.8rem, 7vw, 5.8rem); line-height: 1; color: var(--c8); text-transform: uppercase; }
+
+    /* ══════════════════════════════════════
+       CAJA AMARILLA
+    ══════════════════════════════════════ */
+    .ybox-wrap { background: var(--c4); }
+    .ybox { background: var(--c1); max-width: 800px; margin: 0 auto; padding: 48px 40px; text-align: center; }
+    .ybox h2 { font-family: var(--fd); font-weight: 800; font-size: clamp(1.5rem, 3.2vw, 2.3rem); text-transform: uppercase; color: var(--c4); margin-bottom: 10px; }
+    .ybox p { font-family: var(--fd); font-weight: 700; font-size: 1rem; color: var(--c4); opacity: .8; margin-bottom: 26px; }
+
+    /* ══════════════════════════════════════
+       BOTONES
+    ══════════════════════════════════════ */
+    .btn { display: inline-flex; align-items: center; gap: 10px; font-family: var(--fc); font-weight: 700; font-size: .92rem; letter-spacing: .1em; text-transform: uppercase; padding: 15px 50px; border-radius: var(--r); border: none; cursor: pointer; transition: background var(--t), transform var(--t), box-shadow var(--t), color var(--t), border-color var(--t); white-space: nowrap; }
+    .btn-y { background: var(--c1); color: var(--c4); }
+    .btn-y:hover { background: var(--c2); transform: translateY(-2px); box-shadow: var(--sy); }
+    .btn-ol { background: transparent; color: var(--c4); border: 2px solid var(--c4); }
+    .btn-ol:hover { background: var(--c1); border-color: var(--c1); }
+    .btn-w { background: var(--c8); color: var(--c4); }
+    .btn-w:hover { background: var(--c1); transform: translateY(-2px); box-shadow: var(--sy); }
+    .btn-group { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+
+    /* ══════════════════════════════════════
+       TARJETAS SERVICIOS
+    ══════════════════════════════════════ */
+    .svc-strip { background: var(--c8); padding-bottom: 8px; }
+    .svc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: -64px; position: relative; z-index: 10; }
+    .svc-card { background: var(--c8); border: 1.5px solid var(--c5); border-radius: 6px; padding: 52px 36px 48px; text-align: center; position: relative; top: 0; transition: top var(--t), background var(--t), border-color var(--t), box-shadow var(--t); }
+    .svc-card:hover { top: -10px; background: var(--c1); border-color: var(--c1); box-shadow: var(--sy); }
+    .svc-card svg { width: 68px; height: 68px; fill: var(--c4); margin: 0 auto 22px; }
+    .svc-card h3 { font-family: var(--fc); font-weight: 800; font-size: 1rem; letter-spacing: .07em; text-transform: uppercase; color: var(--c4); margin-bottom: 12px; }
+    .svc-card p { font-size: .9rem; color: var(--c3); line-height: 1.65; }
+
+    .wspc { background: var(--c8); height: 100px; }
+    .cbtns { background: var(--c8); padding: 8px 0 40px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+
+    /* ══════════════════════════════════════
+       CERTIFICACIONES
+    ══════════════════════════════════════ */
+    .cert { background: var(--c8); padding: 72px 0 80px; }
+    .cert-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .cert-lbl { font-family: var(--fc); font-size: .78rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; color: var(--c3); margin-bottom: 8px; }
+    .cert-ttl { font-family: var(--fd); font-weight: 800; font-size: clamp(1.8rem, 3.2vw, 2.5rem); text-transform: uppercase; color: var(--c4); margin-bottom: 18px; }
+    .cert-desc { font-size: .95rem; color: var(--c3); line-height: 1.72; margin-bottom: 26px; }
+    .cert-list { display: flex; flex-direction: column; gap: 12px; }
+    .cert-item { display: flex; align-items: center; gap: 14px; font-size: .95rem; font-weight: 600; color: var(--c4); }
+    .cert-item svg { width: 18px; height: 18px; fill: var(--c1); flex-shrink: 0; }
+    .cert-img { display: flex; justify-content: center; }
+    .cert-img img { max-width: 380px; width: 100%; }
+
+    /* ══════════════════════════════════════
+       QUIÉNES SOMOS
+    ══════════════════════════════════════ */
+    .about { background: var(--c8); padding: 80px 0; border-top: 1px solid var(--c5); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .about-img img { width: 100%; border-radius: 6px; }
+    .about-ttl { font-family: var(--fd); font-weight: 800; font-size: clamp(1.8rem, 3.2vw, 2.5rem); color: var(--c4); margin-bottom: 20px; }
+    .about-p { font-size: .95rem; color: var(--c3); line-height: 1.75; margin-bottom: 14px; }
+
+    /* ══════════════════════════════════════
+       PROFESIONAL — fondo imagen
+    ══════════════════════════════════════ */
+    .pro {
+      background:
+        linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url('https://yanezyyanez.cl/wp-content/uploads/2025/04/male-electrician-works-switchboard-with-electrical-connecting-cable-1-scaled.jpg') center/cover no-repeat;
+      padding: 120px 0;
+    }
+    .pro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+    .pro-ph { font-family: var(--fc); font-weight: 700; font-size: 1rem; color: rgba(255,255,255,.65); margin-bottom: 8px; }
+    .pro-ph a { color: var(--c1); font-weight: 800; }
+    .pro-ttl { font-family: var(--fd); font-weight: 800; font-size: clamp(1.8rem, 3.5vw, 3rem); color: var(--c8); text-transform: uppercase; }
+    .pro-sub { font-size: .95rem; color: rgba(255,255,255,.65); margin-top: 12px; max-width: 480px; line-height: 1.7; }
+    .pro-img { border-radius: 6px; width: 100%; max-width: 440px; }
+
+    /* ══════════════════════════════════════
+       TIPS
+    ══════════════════════════════════════ */
+    .tips-lbl { font-family: var(--fc); font-weight: 700; font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; background: var(--c8); color: var(--c3); text-align: center; padding: 40px 0 8px; }
+    .tips-ttl { font-family: var(--fd); font-weight: 800; font-size: clamp(1.8rem, 3.2vw, 2.5rem); text-transform: uppercase; text-align: center; background: var(--c1); color: var(--c4); padding: 14px 28px 22px; }
+    .tips-sec { background: var(--c8); padding: 0 0 72px; }
+    .tips-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; padding-top: 40px; }
+    .tip-card { border: 1.5px solid var(--c5); border-radius: 6px; padding: 48px 36px; text-align: center; position: relative; top: 0; transition: top var(--t), background var(--t), border-color var(--t), box-shadow var(--t); }
+    .tip-card:hover { top: -10px; background: var(--c1); border-color: var(--c1); box-shadow: var(--sy); }
+    .tip-card svg { width: 58px; height: 58px; fill: var(--c4); margin: 0 auto 20px; }
+    .tip-card h3 { font-family: var(--fc); font-weight: 800; font-size: .98rem; letter-spacing: .06em; text-transform: uppercase; color: var(--c4); margin-bottom: 12px; }
+    .tip-card p { font-size: .88rem; color: var(--c3); line-height: 1.65; }
+
+    /* ══════════════════════════════════════
+       FRASE DESTACADA
+    ══════════════════════════════════════ */
+    .qsec {
+      background:
+        linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url('https://yanezyyanez.cl/wp-content/uploads/2025/04/led-board-interior-reception-scaled.jpg') center/cover no-repeat;
+      padding: 160px 0;
+      text-align: center;
+    }
+    .qsec h2 { font-family: var(--fd); font-weight: 800; font-size: clamp(1.6rem, 4vw, 3rem); color: var(--c8); max-width: 800px; margin: 0 auto 14px; }
+    .qsec p { font-family: var(--fc); font-weight: 700; font-size: 1rem; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.55); }
+
+    /* ══════════════════════════════════════
+       TESTIMONIOS
+    ══════════════════════════════════════ */
+    .testi { background: var(--c8); padding: 80px 0; }
+    .sec-lbl { font-family: var(--fc); font-size: .78rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; color: var(--c3); text-align: center; margin-bottom: 6px; }
+    .sec-ttl { font-family: var(--fd); font-weight: 800; font-size: clamp(1.8rem, 3.2vw, 2.5rem); text-transform: uppercase; text-align: center; display: inline-block; background: var(--c1); color: var(--c4); padding: 6px 20px; margin-bottom: 44px; }
+    .testi-head { text-align: center; }
+    .testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .tcard { border: 1.5px solid var(--c5); border-radius: 6px; padding: 52px 44px; position: relative; top: 0; transition: top var(--t), background var(--t), border-color var(--t), box-shadow var(--t); }
+    .tcard:hover { top: -10px; background: var(--c1); border-color: var(--c1); box-shadow: var(--sy); }
+    .tcard .qi { position: absolute; top: -20px; left: -20px; }
+    .tcard .qi svg { width: 20px; height: 20px; fill: var(--c1); }
+    .tcard:hover .qi svg { fill: var(--c4); }
+    .tcard blockquote { font-size: .92rem; color: var(--c3); line-height: 1.75; margin-bottom: 28px; }
+    .tcard:hover blockquote { color: var(--c4); }
+    .tcard-author { display: flex; align-items: center; gap: 12px; border-top: 1px solid var(--c5); padding-top: 18px; }
+    .tcard:hover .tcard-author { border-top-color: rgba(10,5,0,.15); }
+    .tcard-logo { height: 32px; width: auto; }
+    .tcard-info strong { font-family: var(--fc); font-weight: 800; font-size: .88rem; color: var(--c4); display: block; letter-spacing: .03em; }
+    .tcard-info span { font-size: .76rem; color: var(--c3); }
+
+    /* SEC badge */
+    .sec-badge { background: var(--c8); padding: 44px 0; text-align: center; }
+    .sec-badge img { height: 76px; margin: 0 auto; }
+
+    /* ══════════════════════════════════════
+       BANNER FOOTER — fondo imagen
+    ══════════════════════════════════════ */
+    .fbanner {
+      background:
+        linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url('https://yanezyyanez.cl/wp-content/uploads/2025/04/male-electrician-works-switchboard-with-electrical-connecting-cable-scaled.jpg') center/cover no-repeat;
+      padding: 120px 0;
+    }
+    .fbanner-in { display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center; }
+    .fbanner-ph { font-family: var(--fc); font-weight: 700; font-size: 1rem; color: rgba(255,255,255,.65); margin-bottom: 8px; }
+    .fbanner-ph a { color: var(--c1); font-weight: 800; }
+    .fbanner h2 { font-family: var(--fd); font-weight: 800; font-size: clamp(1.8rem, 4vw, 3.2rem); color: var(--c8); text-transform: uppercase; }
+
+    /* ══════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════ */
+    .footer { background: var(--c4); padding: 60px 0 0; }
+    .footer-grid { display: grid; grid-template-columns: 1fr 1fr auto; gap: 48px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,.07); }
+    .fcol h5 { font-family: var(--fc); font-weight: 800; font-size: .78rem; letter-spacing: .18em; text-transform: uppercase; color: var(--c1); margin-bottom: 18px; }
+    .fcol ul { display: flex; flex-direction: column; gap: 9px; }
+    .fcol ul li a { font-size: .9rem; color: rgba(255,255,255,.45); transition: color var(--t); }
+    .fcol ul li a:hover { color: var(--c1); }
+    .fci { margin-bottom: 14px; }
+    .fci span { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .12em; color: rgba(255,255,255,.3); margin-bottom: 3px; }
+    .fci a { font-size: .9rem; color: rgba(255,255,255,.55); transition: color var(--t); }
+    .fci a:hover { color: var(--c1); }
+    .fsoc { display: flex; gap: 14px; margin-top: 8px; }
+    .fsoc a { color: rgba(255,255,255,.38); transition: color var(--t); }
+    .fsoc a:hover { color: var(--c1); }
+    .fsoc svg { width: 19px; height: 19px; fill: currentColor; }
+    .footer-bot { padding: 20px 0; text-align: center; }
+    .footer-bot p { font-size: .8rem; color: rgba(255,255,255,.22); }
+
+    /* ══════════════════════════════════════
+       WHATSAPP FLOAT
+    ══════════════════════════════════════ */
+    .waf { position: fixed; bottom: 26px; right: 26px; z-index: 999; width: 60px; height: 60px; background: #25d366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(37,211,102,.5); transition: transform var(--t), box-shadow var(--t); }
+    .waf:hover { transform: scale(1.09); box-shadow: 0 8px 28px rgba(37,211,102,.6); }
+    .waf svg { width: 31px; height: 31px; fill: #fff; }
+
+    /* ══════════════════════════════════════
+       RESPONSIVE
+    ══════════════════════════════════════ */
+    @media (max-width: 1024px) {
+      .cert-grid, .about-grid, .pro-grid { grid-template-columns: 1fr; gap: 40px; }
+      .svc-grid, .tips-grid, .testi-grid { grid-template-columns: repeat(2, 1fr); }
+      .fbanner-in { grid-template-columns: 1fr; text-align: center; }
+      .fbanner-in .btn-w { margin: 0 auto; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 768px) {
+      .nav-links, .nav-phone { display: none; }
+      .ham { display: flex; }
+      .svc-grid { margin-top: -24px; grid-template-columns: 1fr; }
+      .tips-grid, .testi-grid { grid-template-columns: 1fr; }
+      .hero { min-height: 60vh; padding: 80px 0 70px; }
+      .ybox { padding: 36px 20px; }
+      .cbtns { flex-direction: column; align-items: center; }
+      .tcard .qi { position: relative; top: auto; left: auto; margin-bottom: 10px; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .pro, .qsec, .fbanner { padding: 80px 0; }
+      .pro-grid { grid-template-columns: 1fr; text-align: center; }
+      .pro-sub { margin: 12px auto 0; }
+    }
+    @media (max-width: 480px) {
+      .btn { padding: 14px 28px; width: 100%; justify-content: center; }
+      .btn-group { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="ct topbar-inner">
+      <a href="https://wa.me/56963603720?text=Hola,%20quiero%20más%20información%20sobre%20tus%20servicios." target="_blank" rel="noopener" class="topbar-cta">⚡ URGENCIAS!</a>
+      <div class="topbar-socials">
+        <a href="https://www.facebook.com/sebastian.yanezmerino" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 20 20"><path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2.2,2.2.2v2.5h-1.3c-1.2,0-1.6.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/sebastianpaulyanezmerino/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.3"/><path d="M14.2,0H5.8C2.6,0,0,2.6,0,5.8v8.3C0,17.4,2.6,20,5.8,20h8.3c3.2,0,5.8-2.6,5.8-5.8V5.8C20,2.6,17.4,0,14.2,0zM10,15c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S12.8,15,10,15z M15.8,5C15.4,5,15,4.6,15,4.2s.4-.8.8-.8.8.4.8.8S16.3,5,15.8,5z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="ct nav-inner">
+      <a href="#inicio" class="nav-logo"><img src="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png" alt="Yañez y Yañez Electricidad" /></a>
+      <nav class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="nav-phone">Fono: <strong>(+569) 63603720</strong></div>
+      <button class="ham" id="ham" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mnav" id="mnav">
+      <a href="#inicio" class="ml">Inicio</a>
+      <a href="#servicios" class="ml">Servicios</a>
+      <a href="#nosotros" class="ml">Nosotros</a>
+      <a href="#contacto" class="ml">Contacto</a>
+      <a href="https://wa.me/56963603720?text=Hola,%20quiero%20más%20información%20sobre%20tus%20servicios." target="_blank" rel="noopener" class="mcta">⚡ URGENCIAS</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="ct">
+        <p class="hero-sub">Servicios de Electricidad</p>
+        <h1>Electricista<br>a Domicilio</h1>
+      </div>
+    </section>
+
+    <!-- CAJA AMARILLA -->
+    <div class="ybox-wrap">
+      <div class="ybox">
+        <h2><span style="color:var(--c4)">Servicios Eléctricos</span> y Urgencias Eléctricas</h2>
+        <p>CONTAMOS CON DIFERENTES SERVICIOS Y SOLUCIONES DE ACUERDO A SU NECESIDAD.</p>
+        <a href="https://wa.me/56963603720?text=Hola,%20quiero%20más%20información%20sobre%20tus%20servicios." target="_blank" rel="noopener" class="btn btn-ol">
+          <svg width="18" height="18" viewBox="0 0 512 512" fill="currentColor"><path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg>
+          CONTÁCTANOS
+        </a>
+      </div>
+    </div>
+
+    <!-- TARJETAS SERVICIOS -->
+    <div class="svc-strip" id="servicios">
+      <div class="ct">
+        <div class="svc-grid">
+          <div class="svc-card fu">
+            <svg viewBox="0 0 576 512"><path d="M96 0C78.3 0 64 14.3 64 32v96h64V32c0-17.7-14.3-32-32-32zM288 0c-17.7 0-32 14.3-32 32v96h64V32c0-17.7-14.3-32-32-32zM32 160c-17.7 0-32 14.3-32 32s14.3 32 32 32v32c0 77.4 55 142 128 156.8V480c0 17.7 14.3 32 32 32s32-14.3 32-32V412.8c12.3-2.5 24.1-6.4 35.1-11.5c-2.1-10.8-3.1-21.9-3.1-33.3c0-80.3 53.8-148 127.3-169.2c.5-2.2 .7-4.5 .7-6.8c0-17.7-14.3-32-32-32H32zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm47.9-225c4.3 3.7 5.4 9.9 2.6 14.9L452.4 356H488c5.2 0 9.8 3.3 11.4 8.2s-.1 10.3-4.2 13.4l-96 72c-4.5 3.4-10.8 3.2-15.1-.6s-5.4-9.9-2.6-14.9L411.6 380H376c-5.2 0-9.8-3.3-11.4-8.2s.1-10.3 4.2-13.4l96-72c4.5-3.4 10.8-3.2 15.1 .6z"/></svg>
+            <h3>Electricista a Domicilio</h3>
+            <p>Servicios de instalación, reparación y mantenimiento de sistemas eléctricos dentro de un hogar o propiedad.</p>
+          </div>
+          <div class="svc-card fu">
+            <svg viewBox="0 0 448 512"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"/></svg>
+            <h3>Electricista Industrial</h3>
+            <p>Servicios dedicados a la instalación, mantenimiento y reparación de sistemas eléctricos en entornos industriales.</p>
+          </div>
+          <div class="svc-card fu">
+            <svg viewBox="0 0 384 512"><path d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4c19.8 27.1 39.7 54.4 49.2 86.2H272zM192 512c44.2 0 80-35.8 80-80V416H112v16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z"/></svg>
+            <h3>Electricidad Domótica</h3>
+            <p>Servicios para la automatización y el control de procesos en una vivienda o edificio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wspc"></div>
+    <div class="cbtns">
+      <a href="#servicios" class="btn btn-y">SERVICIOS</a>
+      <a href="#contacto" class="btn btn-ol">CONTACTO</a>
+    </div>
+
+    <!-- CERTIFICACIONES -->
+    <section class="cert">
+      <div class="ct">
+        <div class="cert-grid">
+          <div>
+            <p class="cert-lbl">Garantía &amp; Calidad</p>
+            <h2 class="cert-ttl">CERTIFICACIONES</h2>
+            <p class="cert-desc">Contamos con profesionales de primer nivel aprobados por la SEC (Superintendencia de Electricidad y Combustibles). También contamos con productos eléctricos certificados para garantizar su seguridad y cumplimiento de normativas.</p>
+            <ul class="cert-list">
+              <li class="cert-item fu"><svg viewBox="0 0 25 25"><path d="M23.29,11.58v.92c0,6.06-4.94,10.99-11,10.99h0c-6.07,0-11-4.94-10.99-11.01,0-6.06,4.94-10.99,11-10.99h0c1.55,0,3.06.32,4.47.95.5.22.73.82.51,1.32-.22.5-.81.73-1.32.51-1.16-.52-2.39-.78-3.66-.78h0C7.33,3.5,3.3,7.53,3.29,12.49c0,4.96,4.03,9,8.99,9.01h0c4.96,0,9-4.03,9-9v-.92c0-.55.45-1,1-1s1,.45,1,1Zm-13.29-.78c-.39-.39-1.02-.39-1.41,0-.39.39-.39,1.02,0,1.41l3,3c.19.19.44.29.71.29s.52-.11.71-.29L23,5.21c.39-.39.39-1.02,0-1.41-.39-.39-1.02-.39-1.41,0L12.29,13.1l-2.29-2.29Z"/></svg>Productos de primera calidad</li>
+              <li class="cert-item fu"><svg viewBox="0 0 25 25"><path d="M23.29,11.58v.92c0,6.06-4.94,10.99-11,10.99h0c-6.07,0-11-4.94-10.99-11.01,0-6.06,4.94-10.99,11-10.99h0c1.55,0,3.06.32,4.47.95.5.22.73.82.51,1.32-.22.5-.81.73-1.32.51-1.16-.52-2.39-.78-3.66-.78h0C7.33,3.5,3.3,7.53,3.29,12.49c0,4.96,4.03,9,8.99,9.01h0c4.96,0,9-4.03,9-9v-.92c0-.55.45-1,1-1s1,.45,1,1Zm-13.29-.78c-.39-.39-1.02-.39-1.41,0-.39.39-.39,1.02,0,1.41l3,3c.19.19.44.29.71.29s.52-.11.71-.29L23,5.21c.39-.39.39-1.02,0-1.41-.39-.39-1.02-.39-1.41,0L12.29,13.1l-2.29-2.29Z"/></svg>Amplia experiencia</li>
+              <li class="cert-item fu"><svg viewBox="0 0 25 25"><path d="M23.29,11.58v.92c0,6.06-4.94,10.99-11,10.99h0c-6.07,0-11-4.94-10.99-11.01,0-6.06,4.94-10.99,11-10.99h0c1.55,0,3.06.32,4.47.95.5.22.73.82.51,1.32-.22.5-.81.73-1.32.51-1.16-.52-2.39-.78-3.66-.78h0C7.33,3.5,3.3,7.53,3.29,12.49c0,4.96,4.03,9,8.99,9.01h0c4.96,0,9-4.03,9-9v-.92c0-.55.45-1,1-1s1,.45,1,1Zm-13.29-.78c-.39-.39-1.02-.39-1.41,0-.39.39-.39,1.02,0,1.41l3,3c.19.19.44.29.71.29s.52-.11.71-.29L23,5.21c.39-.39.39-1.02,0-1.41-.39-.39-1.02-.39-1.41,0L12.29,13.1l-2.29-2.29Z"/></svg>Profesionalismo</li>
+              <li class="cert-item fu"><svg viewBox="0 0 25 25"><path d="M23.29,11.58v.92c0,6.06-4.94,10.99-11,10.99h0c-6.07,0-11-4.94-10.99-11.01,0-6.06,4.94-10.99,11-10.99h0c1.55,0,3.06.32,4.47.95.5.22.73.82.51,1.32-.22.5-.81.73-1.32.51-1.16-.52-2.39-.78-3.66-.78h0C7.33,3.5,3.3,7.53,3.29,12.49c0,4.96,4.03,9,8.99,9.01h0c4.96,0,9-4.03,9-9v-.92c0-.55.45-1,1-1s1,.45,1,1Zm-13.29-.78c-.39-.39-1.02-.39-1.41,0-.39.39-.39,1.02,0,1.41l3,3c.19.19.44.29.71.29s.52-.11.71-.29L23,5.21c.39-.39.39-1.02,0-1.41-.39-.39-1.02-.39-1.41,0L12.29,13.1l-2.29-2.29Z"/></svg>Servicio garantizado</li>
+            </ul>
+          </div>
+          <div class="cert-img fu">
+            <img src="https://yanezyyanez.cl/wp-content/uploads/2025/04/autorizado.SEC_.png" alt="Autorizado SEC" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUIÉNES SOMOS -->
+    <section class="about" id="nosotros">
+      <div class="ct">
+        <div class="about-grid">
+          <div class="about-img fu">
+            <img src="https://yanezyyanez.cl/wp-content/uploads/2025/04/ingenieria.png" alt="Ingeniería eléctrica Yañez y Yañez" loading="lazy" />
+          </div>
+          <div>
+            <h2 class="about-ttl">Quiénes somos</h2>
+            <p class="about-p">Somos dos hermanos que crecimos compartiendo no solo la infancia, sino también una pasión: ¡la electricidad! Con el tiempo, convertimos esa pasión en profesión.</p>
+            <p class="about-p">Hoy, como técnicos e ingenieros en ejecución eléctrica, decidimos unir fuerzas para formar una empresa familiar, seria y comprometida, dedicada a brindar soluciones eléctricas a medida para cada cliente.</p>
+            <p class="about-p">Trabajamos con hogares, empresas, negocios y todo tipo de proyectos, incluyendo instalaciones de domótica, automatización y eficiencia energética. Nos apasiona la tecnología, la innovación y sobre todo, entregar un servicio confiable, seguro y con la calidez que nos representa.</p>
+            <p class="about-p">Más que una empresa, somos una familia al servicio de la energía. Porque no solo conectamos cables: conectamos contigo.</p>
+            <br /><a href="#contacto" class="btn btn-y">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIEMPRE LLAMA UN PROFESIONAL -->
+    <section class="pro">
+      <div class="ct">
+        <div class="pro-grid">
+          <div>
+            <p class="pro-ph">Fono: <a href="tel:56963603720">(+569) 63603720</a></p>
+            <h2 class="pro-ttl">SIEMPRE LLAMA UN PROFESIONAL</h2>
+            <p class="pro-sub">Si no estás 100% seguro de lo que haces, no improvises. Un trabajo bien hecho evita accidentes y ahorra dinero a largo plazo.</p>
+          </div>
+          <img class="pro-img" src="https://yanezyyanez.cl/wp-content/uploads/2025/04/male-electrician-works-switchboard-with-electrical-connecting-cable-scaled.jpg" alt="Electricista profesional" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSEJOS ÚTILES -->
+    <p class="tips-lbl">MANTENTE SIEMPRE INFORMADO</p>
+    <h2 class="tips-ttl">CONSEJOS ÚTILES PARA TU HOGAR</h2>
+    <section class="tips-sec">
+      <div class="ct">
+        <div class="tips-grid">
+          <div class="tip-card fu">
+            <svg viewBox="0 0 576 512"><path d="M96 0C78.3 0 64 14.3 64 32v96h64V32c0-17.7-14.3-32-32-32zM288 0c-17.7 0-32 14.3-32 32v96h64V32c0-17.7-14.3-32-32-32zM32 160c-17.7 0-32 14.3-32 32s14.3 32 32 32v32c0 77.4 55 142 128 156.8V480c0 17.7 14.3 32 32 32s32-14.3 32-32V412.8c12.3-2.5 24.1-6.4 35.1-11.5c-2.1-10.8-3.1-21.9-3.1-33.3c0-80.3 53.8-148 127.3-169.2c.5-2.2 .7-4.5 .7-6.8c0-17.7-14.3-32-32-32H32zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm47.9-225c4.3 3.7 5.4 9.9 2.6 14.9L452.4 356H488c5.2 0 9.8 3.3 11.4 8.2s-.1 10.3-4.2 13.4l-96 72c-4.5 3.4-10.8 3.2-15.1-.6s-5.4-9.9-2.6-14.9L411.6 380H376c-5.2 0-9.8-3.3-11.4-8.2s.1-10.3 4.2-13.4l96-72c4.5-3.4 10.8-3.2 15.1 .6z"/></svg>
+            <h3>Cuidado con los cables deteriorados</h3>
+            <p>Si ves cables pelados, rotos o con parpadeos de luz, es mejor reemplazarlos o llamar a un profesional antes de que se conviertan en un riesgo.</p>
+          </div>
+          <div class="tip-card fu">
+            <svg viewBox="0 0 576 512"><path d="M96 80c0-26.5 21.5-48 48-48H432c26.5 0 48 21.5 48 48V384H96V80zm313 47c-9.4-9.4-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L409 161c9.4-9.4 9.4-24.6 0-33.9zM0 336c0-26.5 21.5-48 48-48H64V416H512V288h16c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V336z"/></svg>
+            <h3>Revisa tu instalación cada cierto tiempo</h3>
+            <p>Especialmente si tu casa es antigua. Una revisión preventiva puede evitar emergencias costosas o peligrosas.</p>
+          </div>
+          <div class="tip-card fu">
+            <svg viewBox="0 0 576 512"><path d="M357.7 8.5c-12.3-11.3-31.2-11.3-43.4 0l-208 192c-9.4 8.6-12.7 22-8.5 34c87.1 25.3 155.6 94.2 180.3 181.6H464c26.5 0 48-21.5 48-48V256h32c13.2 0 25-8.1 29.8-20.3s1.6-26.2-8.1-35.2l-208-192zM288 208c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H304c-8.8 0-16-7.2-16-16V208zM24 256c-13.3 0-24 10.7-24 24s10.7 24 24 24c101.6 0 184 82.4 184 184c0 13.3 10.7 24 24 24s24-10.7 24-24c0-128.1-103.9-232-232-232zm8 256a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM0 376c0 13.3 10.7 24 24 24c48.6 0 88 39.4 88 88c0 13.3 10.7 24 24 24s24-10.7 24-24c0-75.1-60.9-136-136-136c-13.3 0-24 10.7-24 24z"/></svg>
+            <h3>La domótica también necesita mantención</h3>
+            <p>Si tienes sistemas de automatización en casa (luces, portones, climatización), asegúrate de mantenerlos actualizados y revisados.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FRASE DESTACADA -->
+    <section class="qsec">
+      <div class="ct">
+        <h2>«Pensamos en cada cable, cuidamos cada conexión»</h2>
+        <p>ELECTRICIDAD YAÑEZ Y YAÑEZ</p>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="testi">
+      <div class="ct">
+        <div class="testi-head">
+          <p class="sec-lbl">Testimonios de</p>
+          <h2 class="sec-ttl">Nuestros Clientes</h2>
+        </div>
+        <div class="testi-grid">
+          <div class="tcard fu">
+            <div class="qi"><svg viewBox="0 0 512 512"><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg></div>
+            <blockquote>Tenía cortes de luz constantes en mi casa y no sabía qué hacer. Ellos llegaron puntuales, revisaron todo y solucionaron el problema sin necesidad de romper ni cambiarlo todo. Amables, claros y súper profesionales. ¡Ahora todo funciona perfecto!</blockquote>
+            <div class="tcard-author">
+              <img class="tcard-logo" src="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png" alt="Logo" loading="lazy" />
+              <div class="tcard-info"><strong>Francisco D., San Fernando</strong><span>Cliente Domiciliario</span></div>
+            </div>
+          </div>
+          <div class="tcard fu">
+            <div class="qi"><svg viewBox="0 0 512 512"><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg></div>
+            <blockquote>Construimos nuestra casa desde cero y ellos se encargaron de toda la instalación eléctrica. El resultado fue impecable. Además, se preocuparon de sugerir mejoras que no habíamos considerado. Hoy tenemos una casa segura y moderna, gracias a su trabajo.</blockquote>
+            <div class="tcard-author">
+              <img class="tcard-logo" src="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png" alt="Logo" loading="lazy" />
+              <div class="tcard-info"><strong>Guillermo y Francis., San Joaquín</strong><span>Clientes Domiciliarios</span></div>
+            </div>
+          </div>
+          <div class="tcard fu">
+            <div class="qi"><svg viewBox="0 0 512 512"><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg></div>
+            <blockquote>Quería automatizar luces y portón eléctrico, pero sin volverme loca con cosas complicadas. Me instalaron un sistema sencillo y eficiente, que ahora manejo desde el celular. ¡Estoy feliz con el resultado y mi casa parece de película!</blockquote>
+            <div class="tcard-author">
+              <img class="tcard-logo" src="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png" alt="Logo" loading="lazy" />
+              <div class="tcard-info"><strong>Claudia H., La Reina</strong><span>Cliente Domiciliaria</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEC BADGE -->
+    <div class="sec-badge">
+      <img src="https://yanezyyanez.cl/wp-content/uploads/2025/04/autorizado.SEC_.png" alt="Autorizado SEC" loading="lazy" />
+    </div>
+
+    <!-- BANNER CONTACTO -->
+    <section class="fbanner" id="contacto">
+      <div class="ct">
+        <div class="fbanner-in">
+          <div>
+            <p class="fbanner-ph"><strong>Fono</strong>: <a href="tel:56963603720">(+569) 63603720</a></p>
+            <h2 class="fbanner h2" style="font-family:var(--fd);font-weight:800;font-size:clamp(1.8rem,4vw,3.2rem);color:var(--c8);text-transform:uppercase;">¿Necesitas un profesional?</h2>
+          </div>
+          <a href="mailto:contacto@yanezyyanez.cl" class="btn btn-w">Contacto</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="ct">
+      <div class="footer-grid">
+        <div class="fcol">
+          <h5>Links</h5>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="fcol">
+          <h5>Contacto</h5>
+          <div class="fci"><span>Número telefónico</span><a href="tel:56963603720">(+569) 63603720</a></div>
+          <div class="fci"><span>Correo</span><a href="mailto:contacto@yanezyyanez.cl">contacto@yanezyyanez.cl</a></div>
+        </div>
+        <div class="fcol">
+          <h5>Síguenos</h5>
+          <div class="fsoc">
+            <a href="https://www.instagram.com/sebastianpaulyanezmerino/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.3"/><path d="M14.2,0H5.8C2.6,0,0,2.6,0,5.8v8.3C0,17.4,2.6,20,5.8,20h8.3c3.2,0,5.8-2.6,5.8-5.8V5.8C20,2.6,17.4,0,14.2,0zM10,15c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S12.8,15,10,15z M15.8,5C15.4,5,15,4.6,15,4.2s.4-.8.8-.8.8.4.8.8S16.3,5,15.8,5z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/sebastian.yanezmerino" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 20 20"><path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2.2,2.2.2v2.5h-1.3c-1.2,0-1.6.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bot"><p>Copyright © 2025 Yañez y Yañez Electricidad. Todos los derechos reservados.</p></div>
+  </footer>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a href="https://wa.me/56963603720?text=Hola,%20quiero%20más%20información%20sobre%20tus%20servicios." target="_blank" rel="noopener" class="waf" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+  </a>
+
+  <script>
+    // Hamburger
+    const ham = document.getElementById('ham');
+    const mn = document.getElementById('mnav');
+    ham.addEventListener('click', () => {
+      const o = ham.classList.toggle('open');
+      mn.classList.toggle('open', o);
+      ham.setAttribute('aria-expanded', o);
+    });
+    document.querySelectorAll('.ml').forEach(a => a.addEventListener('click', () => {
+      ham.classList.remove('open'); mn.classList.remove('open'); ham.setAttribute('aria-expanded','false');
+    }));
+
+    // Scroll fade-up
+    const io = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }}), { threshold: 0.1 });
+    document.querySelectorAll('.fu').forEach(el => io.observe(el));
+
+    // Nav active link
+    const secs = document.querySelectorAll('section[id], .hero[id]');
+    const nls = document.querySelectorAll('.nav-links a');
+    new IntersectionObserver(es => es.forEach(e => {
+      if(e.isIntersecting) nls.forEach(a => a.classList.toggle('act', a.getAttribute('href') === '#'+e.target.id));
+    }), { threshold: 0.35 }).observe(...Array.from(secs).map(s => s)) ;
+    secs.forEach(s => new IntersectionObserver(es => es.forEach(e => {
+      if(e.isIntersecting) nls.forEach(a => a.classList.toggle('act', a.getAttribute('href')==='#'+e.target.id));
+    }), {threshold:.35}).observe(s));
+  </script>
+</body>
+</html>
