@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,viewport-fit=cover">
+<title>Blog Eléctrico | Yañez y Yañez</title>
+<meta name="description" content="Consejos, datos técnicos e información útil sobre electricidad para tu hogar y negocio. Blog de Yañez y Yañez Electricidad.">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog Eléctrico | Yañez y Yañez">
+<meta property="og:description" content="Consejos eléctricos, datos técnicos y curiosidades sobre electricidad para tu hogar y negocio.">
+<meta property="og:image" content="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blog Eléctrico | Yañez y Yañez">
+<meta name="twitter:image" content="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png">
+<link rel="icon" href="https://yanezyyanez.cl/wp-content/uploads/2025/04/cropped-logo-yanez-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="https://yanezyyanez.cl/wp-content/uploads/2025/04/cropped-logo-yanez-180x180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>/* SHARED — embedded into each page */
+:root{--c1:#ffcd05;--c2:#fcb424;--c3:#504e4a;--c4:#0a0500;--c5:#edeff2;--c8:#ffffff;--fd:'Sen',sans-serif;--fc:'Barlow Condensed',sans-serif;--fb:'Barlow',sans-serif;--r:4px;--t:.22s ease;--sy:0 20px 80px 0 rgba(255,205,5,.4);}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--fb);background:var(--c8);color:var(--c4);overflow-x:hidden;}
+img{max-width:100%;height:auto;display:block;}
+a{text-decoration:none;color:inherit;}
+ul{list-style:none;}
+.ct{max-width:1260px;margin:0 auto;padding:0 28px;}
+.fu{opacity:0;transform:translateY(26px);transition:opacity .5s ease,transform .5s ease;}
+.fu.in{opacity:1;transform:none;}
+.fu:nth-child(2){transition-delay:.1s}.fu:nth-child(3){transition-delay:.2s}.fu:nth-child(4){transition-delay:.3s}
+/* TOPBAR */
+.topbar{background:rgba(10,5,0,.97);border-bottom:1px solid rgba(255,205,5,.12);padding:7px 0;}
+.topbar-inner{display:flex;align-items:center;justify-content:space-between;}
+.topbar-cta{font-family:var(--fc);font-weight:800;font-size:.82rem;letter-spacing:.13em;text-transform:uppercase;background:var(--c1);color:var(--c4);padding:7px 20px;border-radius:var(--r);transition:background var(--t);}
+.topbar-cta:hover{background:var(--c2);}
+.topbar-socials{display:flex;gap:14px;}
+.topbar-socials a{color:rgba(255,255,255,.45);transition:color var(--t);}
+.topbar-socials a:hover{color:var(--c1);}
+.topbar-socials svg{width:17px;height:17px;fill:currentColor;}
+/* NAVBAR */
+.navbar{position:sticky;top:0;z-index:900;background:rgba(10,5,0,.96);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,205,5,.1);}
+.nav-inner{display:flex;align-items:center;height:72px;gap:20px;justify-content:space-between;}
+.nav-logo img{height:48px;width:auto;}
+.nav-links{display:flex;gap:2px;}
+.nav-links a{font-family:var(--fc);font-weight:600;font-size:.9rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.7);padding:7px 16px;border-radius:var(--r);transition:color var(--t),background var(--t);}
+.nav-links a:hover,.nav-links a.act{color:var(--c1);background:rgba(255,205,5,.07);}
+.nav-phone{font-family:var(--fc);font-size:.88rem;color:rgba(255,255,255,.55);white-space:nowrap;}
+.nav-phone strong{color:var(--c1);}
+.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px;}
+.ham span{display:block;width:26px;height:2px;background:#fff;border-radius:2px;transition:all .3s;}
+.ham.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.ham.open span:nth-child(2){opacity:0;}
+.ham.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.mnav{display:none;background:rgba(10,5,0,.99);border-top:1px solid rgba(255,205,5,.1);padding:14px 24px 22px;flex-direction:column;gap:2px;}
+.mnav.open{display:flex;}
+.mnav a{font-family:var(--fc);font-weight:700;font-size:1.05rem;letter-spacing:.07em;text-transform:uppercase;color:rgba(255,255,255,.7);padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06);transition:color var(--t);}
+.mnav a:hover{color:var(--c1);}
+.mnav a:last-child{border:none;}
+.mnav .mcta{margin-top:12px;background:var(--c1);color:var(--c4);text-align:center;padding:14px;border-radius:var(--r);font-size:1rem;border:none;font-weight:800;}
+/* BTNS */
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--fc);font-weight:700;font-size:.92rem;letter-spacing:.1em;text-transform:uppercase;padding:15px 50px;border-radius:var(--r);border:none;cursor:pointer;transition:background var(--t),transform var(--t),box-shadow var(--t),color var(--t),border-color var(--t);white-space:nowrap;}
+.btn-y{background:var(--c1);color:var(--c4);}
+.btn-y:hover{background:var(--c2);transform:translateY(-2px);box-shadow:var(--sy);}
+.btn-ol{background:transparent;color:var(--c4);border:2px solid var(--c4);}
+.btn-ol:hover{background:var(--c1);border-color:var(--c1);}
+.btn-w{background:var(--c8);color:var(--c4);}
+.btn-w:hover{background:var(--c1);transform:translateY(-2px);box-shadow:var(--sy);}
+.btn-yw{background:var(--c1);color:var(--c4);}
+.btn-yw:hover{background:var(--c2);transform:translateY(-2px);}
+/* FOOTER */
+.footer{background:var(--c4);padding:60px 0 0;}
+.footer-grid{display:grid;grid-template-columns:1fr 1fr auto;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,.07);}
+.fcol h5{font-family:var(--fc);font-weight:800;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--c1);margin-bottom:18px;}
+.fcol ul{display:flex;flex-direction:column;gap:9px;}
+.fcol ul li a{font-size:.9rem;color:rgba(255,255,255,.45);transition:color var(--t);}
+.fcol ul li a:hover{color:var(--c1);}
+.fci{margin-bottom:14px;}
+.fci span{display:block;font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.3);margin-bottom:3px;}
+.fci a{font-size:.9rem;color:rgba(255,255,255,.55);transition:color var(--t);}
+.fci a:hover{color:var(--c1);}
+.fsoc{display:flex;gap:14px;margin-top:8px;}
+.fsoc a{color:rgba(255,255,255,.38);transition:color var(--t);}
+.fsoc a:hover{color:var(--c1);}
+.fsoc svg{width:19px;height:19px;fill:currentColor;}
+.footer-bot{padding:20px 0;text-align:center;}
+.footer-bot p{font-size:.8rem;color:rgba(255,255,255,.22);}
+/* WA FLOAT */
+.waf{position:fixed;bottom:26px;right:26px;z-index:999;width:60px;height:60px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.5);transition:transform var(--t),box-shadow var(--t);}
+.waf:hover{transform:scale(1.09);box-shadow:0 8px 28px rgba(37,211,102,.6);}
+.waf svg{width:31px;height:31px;fill:#fff;}
+/* PAGE HERO BANNER */
+.page-hero{position:relative;background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),var(--bg-img) center/cover no-repeat;padding:100px 0 80px;text-align:center;}
+.page-hero h1{font-family:var(--fd);font-weight:800;font-size:clamp(2.2rem,6vw,4.5rem);text-transform:uppercase;color:var(--c8);}
+.page-hero p{font-family:var(--fc);font-size:1rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-top:10px;}
+/* RESPONSIVE */
+@media(max-width:768px){.nav-links,.nav-phone{display:none;}.ham{display:flex;}}
+@media(max-width:480px){.btn{padding:14px 28px;width:100%;justify-content:center;}}
+
+.blog-hero{position:relative;background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('https://yanezyyanez.cl/wp-content/uploads/2025/10/—Pngtree—smart-home-device-home_7856828-scaled.jpg') center/cover no-repeat;padding:110px 0 80px;text-align:center;}
+.blog-hero h1{font-family:var(--fd);font-weight:800;font-size:clamp(2.5rem,7vw,5rem);text-transform:uppercase;color:var(--c8);}
+.blog-section{background:var(--c8);padding:80px 0;}
+.blog-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:40px;}
+.blog-card{border:1.5px solid var(--c5);border-radius:8px;overflow:hidden;transition:box-shadow var(--t),transform var(--t);position:relative;top:0;}
+.blog-card:hover{box-shadow:var(--sy);top:-6px;}
+.blog-card-img{width:100%;height:220px;object-fit:cover;}
+.blog-card-body{padding:28px 28px 32px;}
+.blog-tag{font-family:var(--fc);font-size:.7rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase;background:var(--c1);color:var(--c4);padding:4px 12px;border-radius:2px;display:inline-block;margin-bottom:14px;}
+.blog-card-body h2{font-family:var(--fd);font-weight:800;font-size:1.3rem;color:var(--c4);margin-bottom:12px;line-height:1.3;}
+.blog-card-body p{font-size:.9rem;color:var(--c3);line-height:1.7;margin-bottom:12px;}
+.blog-card-body ul{padding-left:18px;margin:12px 0;}
+.blog-card-body ul li{font-size:.88rem;color:var(--c3);line-height:1.7;margin-bottom:4px;}
+.blog-card-body blockquote{background:var(--c5);border-left:3px solid var(--c1);padding:14px 18px;border-radius:0 4px 4px 0;margin:14px 0;font-size:.88rem;color:var(--c3);line-height:1.7;}
+.blog-card-body blockquote li{list-style:disc;margin-left:16px;margin-bottom:4px;}
+.blog-card-body strong{color:var(--c4);}
+.blog-card-body h3{font-family:var(--fc);font-weight:800;font-size:1rem;letter-spacing:.06em;text-transform:uppercase;color:var(--c4);margin:14px 0 8px;}
+@media(max-width:768px){.blog-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="ct topbar-inner">
+    <a href="https://wa.me/56963603720?text=Hola,%20quiero%20más%20información%20sobre%20tus%20servicios." target="_blank" rel="noopener" class="topbar-cta">⚡ URGENCIAS!</a>
+    <div class="topbar-socials">
+      <a href="https://www.facebook.com/sebastian.yanezmerino" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 20 20"><path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2.2,2.2.2v2.5h-1.3c-1.2,0-1.6.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"/></svg></a>
+      <a href="https://www.instagram.com/sebastianpaulyanezmerino/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.3"/><path d="M14.2,0H5.8C2.6,0,0,2.6,0,5.8v8.3C0,17.4,2.6,20,5.8,20h8.3c3.2,0,5.8-2.6,5.8-5.8V5.8C20,2.6,17.4,0,14.2,0zM10,15c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S12.8,15,10,15z M15.8,5C15.4,5,15,4.6,15,4.2s.4-.8.8-.8.8.4.8.8S16.3,5,15.8,5z"/></svg></a>
+    </div>
+  </div>
+</div>
+<header class="navbar">
+  <div class="ct nav-inner">
+    <a href="index.html" class="nav-logo"><img src="https://yanezyyanez.cl/wp-content/uploads/2025/04/logo-yanez.png" alt="Yañez y Yañez" /></a>
+    <nav class="nav-links"><a href="index.html">Inicio</a>
+<a href="servicios.html">Servicios</a>
+<a href="blog.html" class="act">Blog</a>
+<a href="contacto.html">Contacto</a>
+</nav>
+    <div class="nav-phone">Fono: <strong>(+569) 63603720</strong></div>
+    <button class="ham" id="ham" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="mnav" id="mnav">
+    <a href="index.html" class="ml">Inicio</a>
+    <a href="servicios.html" class="ml">Servicios</a>
+    <a href="blog.html" class="ml">Blog</a>
+    <a href="contacto.html" class="ml">Contacto</a>
+    <a href="https://wa.me/56963603720?text=Hola,%20quiero%20más%20información%20sobre%20tus%20servicios." target="_blank" rel="noopener" class="mcta">⚡ URGENCIAS</a>
+  </nav>
+</header>
+<main>
+<section class="blog-hero">
+  <div class="ct"><h1>BLOG</h1></div>
+</section>
+<section class="blog-section">
+  <div class="ct">
+    <div class="blog-grid">
+      <div class="blog-card fu">
+        <img class="blog-card-img" src="https://yanezyyanez.cl/wp-content/uploads/2025/04/8630-scaled.jpg" alt="Mantenimiento eléctrico" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">💡 Sabías qué</span>
+          <h2>¿Sabías que un mantenimiento eléctrico puede ayudarte a ahorrar energía?</h2>
+          <p>Muchas personas creen que mientras haya luz y los enchufes funcionen, todo está bien con la instalación eléctrica. Sin embargo, <strong>un sistema en mal estado puede aumentar el consumo eléctrico hasta en un 30%</strong>, además de representar un riesgo de sobrecalentamiento o cortocircuito.</p>
+          <p>El <strong>mantenimiento eléctrico preventivo</strong> consiste en revisar cables, enchufes, tableros, diferenciales y protecciones para asegurarse de que todo funcione correctamente.</p>
+          <h3>🔧 Beneficios del mantenimiento eléctrico</h3>
+          <blockquote>
+            <ul>
+              <li><strong>Ahorro energético:</strong> un sistema eficiente consume menos.</li>
+              <li><strong>Mayor seguridad:</strong> evita incendios o cortocircuitos.</li>
+              <li><strong>Durabilidad:</strong> protege los equipos y alarga su vida útil.</li>
+              <li><strong>Cumplimiento normativo:</strong> importante en locales o industrias.</li>
+            </ul>
+          </blockquote>
+          <p><strong>Conclusión:</strong> La electricidad no avisa cuando algo va mal. Un mantenimiento a tiempo garantiza <strong>seguridad, ahorro y tranquilidad</strong>. 🔋</p>
+        </div>
+      </div>
+      <div class="blog-card fu">
+        <img class="blog-card-img" src="https://yanezyyanez.cl/wp-content/uploads/2025/10/—Pngtree—multiple-socket-with-connected-plugs_10567616-scaled.jpg" alt="Enchufes sobrecargados" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">🔌 Consejo</span>
+          <h2>No sobrecargues tus enchufes</h2>
+          <p>Uno de los errores más comunes es <strong>conectar demasiados aparatos en una sola extensión o enchufe múltiple</strong>. Esto puede generar <strong>sobrecargas eléctricas</strong> y provocar riesgos de cortocircuito o incendio.</p>
+          <p>Cada enchufe tiene un <strong>límite de potencia</strong>. Cuando varios equipos superan esa capacidad, los cables se calientan y pueden dañarse.</p>
+          <h3>💡 ¿Qué puedes hacer?</h3>
+          <blockquote>
+            <ul>
+              <li>Usa <strong>extensiones de buena calidad</strong> y revisa su potencia máxima.</li>
+              <li><strong>Evita los "ladrones"</strong> sin protección.</li>
+              <li>Distribuye los aparatos entre distintos enchufes o circuitos.</li>
+              <li>Si un enchufe se calienta, <strong>desconéctalo de inmediato</strong>.</li>
+              <li>Considera <strong>instalar más puntos eléctricos</strong> donde usas muchos equipos.</li>
+            </ul>
+          </blockquote>
+          <p>Recuerda: <strong>la seguridad eléctrica empieza con el buen uso de tus enchufes</strong>.</p>
+        </div>
+      </div>
+      <div class="blog-card fu">
+        <img class="blog-card-img" src="https://yanezyyanez.cl/wp-content/uploads/2025/04/led-board-interior-reception-scaled.jpg" alt="Cables eléctricos" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">⚙️ Dato técnico</span>
+          <h2>El color de los cables eléctricos sí importa</h2>
+          <p>En una instalación eléctrica, <strong>los colores de los cables no son decorativos</strong> — cada uno cumple una función específica que garantiza seguridad y orden en el sistema.</p>
+          <h3>Colores y sus funciones:</h3>
+          <blockquote>
+            <ul>
+              <li>⚫ <strong>Marrón o negro:</strong> fase → transporta la corriente desde la fuente hacia los equipos.</li>
+              <li>🔵 <strong>Azul:</strong> neutro → devuelve la corriente al sistema.</li>
+              <li>🟢 <strong>Verde/amarillo:</strong> tierra → protección y descarga en caso de fallas.</li>
+            </ul>
+          </blockquote>
+          <p>Siempre es importante contar con un <strong>electricista certificado</strong> antes de intervenir cualquier conexión.</p>
+          <p><strong>En resumen:</strong> El color de un cable puede parecer un detalle, pero en electricidad <strong>cada color salva vidas</strong>. 🔌</p>
+        </div>
+      </div>
+      <div class="blog-card fu">
+        <img class="blog-card-img" src="https://yanezyyanez.cl/wp-content/uploads/2025/10/Bombilla-centenaria-1920-1.jpg" alt="Bombilla centenaria" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">💡 Dato histórico</span>
+          <h2>La bombilla que nunca se apaga</h2>
+          <p>¿Sabías que existe una bombilla que lleva <strong>más de 120 años encendida</strong>? 🔥 Se llama <strong>"La Luz Centenaria"</strong> y está en una estación de bomberos en Livermore, California, EE. UU.</p>
+          <p>Fue instalada en <strong>1901</strong> y sigue funcionando hasta hoy. Solo se ha apagado un par de veces por mantenimiento o traslado, nunca porque se haya fundido.</p>
+          <h3>🧠 ¿Por qué ha durado tanto?</h3>
+          <p>A diferencia de las bombillas modernas, esta tiene un <strong>filamento más grueso de carbono</strong> y funciona a baja potencia, priorizando la <strong>durabilidad por sobre el brillo</strong>.</p>
+          <h3>⚙️ Lo que nos enseña hoy</h3>
+          <p>Una instalación bien hecha, con materiales adecuados y mantenimiento periódico, puede durar toda una vida. Los buenos trabajos eléctricos hechos con dedicación son los que perduran. 💡</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="ct">
+    <div class="footer-grid">
+      <div class="fcol">
+        <h5>Links</h5>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h5>Contacto</h5>
+        <div class="fci"><span>Número telefónico</span><a href="tel:56963603720">(+569) 63603720</a></div>
+        <div class="fci"><span>Correo</span><a href="mailto:contacto@yanezyyanez.cl">contacto@yanezyyanez.cl</a></div>
+      </div>
+      <div class="fcol">
+        <h5>Síguenos</h5>
+        <div class="fsoc">
+          <a href="https://www.instagram.com/sebastianpaulyanezmerino/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.3"/><path d="M14.2,0H5.8C2.6,0,0,2.6,0,5.8v8.3C0,17.4,2.6,20,5.8,20h8.3c3.2,0,5.8-2.6,5.8-5.8V5.8C20,2.6,17.4,0,14.2,0zM10,15c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S12.8,15,10,15z M15.8,5C15.4,5,15,4.6,15,4.2s.4-.8.8-.8.8.4.8.8S16.3,5,15.8,5z"/></svg></a>
+          <a href="https://www.facebook.com/sebastian.yanezmerino" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 20 20"><path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2.2,2.2.2v2.5h-1.3c-1.2,0-1.6.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bot"><p>Copyright &copy; 2025 Yañez y Yañez Electricidad. Todos los derechos reservados.</p></div>
+</footer>
+<a href="https://wa.me/56963603720?text=Hola,%20quiero%20más%20información%20sobre%20tus%20servicios." target="_blank" rel="noopener" class="waf" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg></a>
+<script>
+const ham=document.getElementById('ham'),mn=document.getElementById('mnav');
+ham.addEventListener('click',()=>{const o=ham.classList.toggle('open');mn.classList.toggle('open',o);ham.setAttribute('aria-expanded',o);});
+document.querySelectorAll('.ml').forEach(a=>a.addEventListener('click',()=>{ham.classList.remove('open');mn.classList.remove('open');ham.setAttribute('aria-expanded','false');}));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:0.1});
+document.querySelectorAll('.fu').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
